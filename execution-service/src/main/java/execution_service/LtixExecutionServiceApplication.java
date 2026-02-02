@@ -1,13 +1,13 @@
-package com.example.demo;
+package execution_service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class LtixApplication {
+public class LtixExecutionServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(LtixApplication.class, args);
+		SpringApplication.run(LtixExecutionServiceApplication.class, args);
 	}
 
 }

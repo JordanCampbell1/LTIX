@@ -1,10 +1,10 @@
-package com.example.demo;
+package execution_service;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class LtixApplicationTests {
+class LtixExecutionServiceApplicationTests {
 
 	@Test
 	void contextLoads() {

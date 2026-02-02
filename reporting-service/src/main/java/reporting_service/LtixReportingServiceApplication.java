@@ -1,13 +1,13 @@
-package com.example.demo;
+package reporting_service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class LtixApplication {
+public class LtixReportingServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(LtixApplication.class, args);
+		SpringApplication.run(LtixReportingServiceApplication.class, args);
 	}
 
 }

@@ -1,10 +1,10 @@
-package com.example.demo;
+package reporting_service;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class LtixApplicationTests {
+class LtixReportingServiceApplicationTests {
 
 	@Test
 	void contextLoads() {
