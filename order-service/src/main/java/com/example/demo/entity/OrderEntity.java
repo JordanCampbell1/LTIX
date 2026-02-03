@@ -8,6 +8,8 @@ import lombok.Setter;
 import java.time.Instant;
 import java.util.UUID;
 
+import com.example.demo.utils.OrderSide;
+
 @Entity
 @Table(name = "orders")
 @Getter
@@ -23,8 +25,10 @@ public class OrderEntity {
     @Column(name = "symbol", nullable = false, length = 20)
     private String symbol;
 
+    @Enumerated(EnumType.STRING)
     @Column(name = "side", nullable = false, length = 10)
-    private String side;
+    private OrderSide side;
+
 
     @Column(name = "quantity", nullable = false)
     private Long quantity;
